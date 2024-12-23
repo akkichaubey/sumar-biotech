@@ -5,11 +5,25 @@
         <img src="./assets/images/logo.png" alt="logo">
       </a>
     </div>
-    <div class="menu-wrap">
+    <div class="mobile-overlay"></div>
+    <div class="header-menu">
+      <div class="menu-toggle">
+        <button type="button" aria-label="menu close icon">
+          <svg class="icon" width="18" height="18">
+            <use xlink:href="assets/images/svgsprit.svg#close-icon"></use>
+          </svg>
+        </button>
+      </div>
       <div class="menu">
         <ul>
           <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
+          <li>
+            <a href="#">About</a>
+            <ul class="sub-menu">
+              <li><a href="#">Sumar Biotech LLP</a></li>
+              <li><a href="#">Vision & Mission</a></li>
+            </ul>
+          </li>
           <li><a href="#">Research & Development</a></li>
           <li><a href="#">Products</a></li>
           <li><a href="#">Social Acctivities</a></li>
@@ -25,18 +39,20 @@
       </button>
       <div class="search">
         <form action="#">
-          <input type="text" placeholder="Search">
-          <button type="submit">
-            <svg class="icon" width="30" height="30">
-              <use xlink:href="./assets/images/svgsprit.svg#search-icon"></use>
-            </svg>
-          </button>
+          <div class="input-box">
+            <input type="text" placeholder="Search">
+            <button type="submit">
+              <svg class="icon" width="30" height="30">
+                <use xlink:href="./assets/images/svgsprit.svg#search-icon"></use>
+              </svg>
+            </button>
+          </div>
         </form>
       </div>
     </div>
     <div class="menu-toggle">
       <button type="button">
-        <svg class="icon" width="30" height="30">
+        <svg class="icon" width="24" height="24">
           <use xlink:href="./assets/images/svgsprit.svg#menu-bars-icon"></use>
         </svg>
       </button>

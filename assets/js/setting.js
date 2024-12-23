@@ -1,18 +1,15 @@
 jQuery(document).ready(function () {
   var headerwrap = jQuery(".header-wrap");
-  var headerTop = jQuery(headerwrap).find(".head-top");
   jQuery(window).on("load scroll", function () {
-    var headerTopHeight = headerTop.innerHeight();
-
-    if (jQuery(this).scrollTop() > 30) {
+    if (jQuery(this).scrollTop() > 0) {
       jQuery(headerwrap).addClass("sticky");
-      // jQuery(headerwrap)
-      //   .find("header")
-      //   .css("transform", `translateY(-${headerTopHeight}px)`);
     } else {
       jQuery(headerwrap).removeClass("sticky");
-      // jQuery(headerwrap).find("header").css("transform", "translateY(0)");
     }
+  });
+
+  jQuery(".head-search button").click(function () {
+    jQuery(".head-search").toggleClass("active");
   });
 
   jQuery(".menu-toggle button, .mobile-overlay").click(function () {
@@ -26,6 +23,17 @@ jQuery(document).ready(function () {
       jQuery(".mobile-overlay").addClass("active");
       jQuery(".header-menu").addClass("active");
       jQuery("body").addClass("pause");
+    }
+  });
+
+  jQuery(".menu > ul > li").each(function (index, element) {
+    var currentlimobile = jQuery(this).find(".sub-menu").length;
+    if (jQuery(currentlimobile).length == 1) {
+      jQuery(
+        `<div class='menu-arrow'><svg class="icon" fill="currentColor" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+      <path d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"/>
+  </svg></div>`
+      ).insertBefore(jQuery(this).find(".sub-menu"));
     }
   });
 

@@ -9,9 +9,11 @@
   <!-- header section start -->
   <?php include ("include/header.php"); ?>
   <!-- header section end -->
+
+  <!-- hero-banner -->
   <div class="banner hero-banner">
     <div class="banner-bg img-cover">
-      <video autoplay muted playsinline class="video-autoplay">
+      <video autoplay muted loop playsinline class="video-autoplay">
         <source src="./assets/images/banner-video.mp4" type="video/mp4" />
       </video>
     </div>
@@ -27,10 +29,13 @@
         </div>
       </div>
     </div>
+    <div class="shape">
+      <img src="./assets/images/banner-shape.png" alt="shape">
+    </div>
   </div>
-  <div style="height: 2000px;">
+  <!-- hero-banner -->
+  <!-- hero-banner -->
 
-  </div>
 
   <!-- footer section start -->
   <?php include ("include/footer.php"); ?>
