@@ -81,3 +81,22 @@ jQuery(document).ready(function () {
     );
   });
 });
+
+var certifications = new Swiper(".certifications-slider", {
+  slidesPerView: 1,
+  pagination: {
+    el: ".sw-pagination-certificate",
+    clickable: true,
+  },
+  breakpoints: {
+    640: {
+      slidesPerView: 2,
+    },
+    768: {
+      slidesPerView: 4,
+    },
+    1024: {
+      slidesPerView: 5,
+    },
+  },
+});

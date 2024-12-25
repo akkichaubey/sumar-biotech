@@ -350,6 +350,14 @@ input:-ms-input-placeholder {
   padding-bottom: clamp(35px, 7.292vw, 140px);
 }
 
+.pt-130 {
+  padding-top: clamp(30px, 6.771vw, 130px);
+}
+
+.pb-130 {
+  padding-bottom: clamp(30px, 6.771vw, 130px);
+}
+
 .pt-120 {
   padding-top: clamp(30px, 6.25vw, 120px);
 }
@@ -380,6 +388,14 @@ input:-ms-input-placeholder {
 
 .pb-90 {
   padding-bottom: clamp(30px, 4.688vw, 90px);
+}
+
+.pt-80 {
+  padding-top: clamp(30px, 4.167vw, 80px);
+}
+
+.pb-80 {
+  padding-bottom: clamp(30px, 4.167vw, 80px);
 }
 
 .pt-70 {
@@ -428,11 +444,6 @@ input:-ms-input-placeholder {
 
 /* space */
 
-
-/* .title-wrap {
-  padding-bottom: clamp(30px, 3.125vw, 60px);
-} */
-
 .title-wrap .sub-title {
   font-weight: 800;
   line-height: 1.08;
@@ -441,6 +452,17 @@ input:-ms-input-placeholder {
   opacity: 0.3;
   text-transform: uppercase;
   padding-bottom: clamp(15px, 1.563vw, 30px);
+}
+
+.title-wrap.title-white .h2,
+.title-wrap.title-white .sub-text p,
+.title-wrap.title-white .sub-title {
+  color: var(--white);
+  opacity: 1;
+}
+
+.title-wrap .sub-text {
+  padding-top: clamp(25px, 2.396vw, 46px);
 }
 
 .img-cover {
@@ -577,6 +599,27 @@ input:-ms-input-placeholder {
 .about-img .icon-box img {
   width: clamp(50px, 3.958vw, 76px);
   height: auto;
+}
+
+.sw-pagination {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 4px;
+}
+
+.sw-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  border-radius: 10px;
+  border: 1px solid var(--secondary);
+  background: transparent;
+  opacity: 1;
+  margin: 0 !important;
+}
+
+.sw-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background: var(--secondary);
 }
 
 /*===== header =====*/
@@ -1146,6 +1189,7 @@ input:-ms-input-placeholder {
 }
 
 .service-wrap .inner {
+  border-radius: 16px;
   background: var(--grey-100);
 }
 
@@ -1198,3 +1242,104 @@ input:-ms-input-placeholder {
 }
 
 /*===== service-wrap =====*/
+
+/*===== why-choose-wrap =====*/
+.choose-box h3 {
+  color: var(--secondary);
+  padding-bottom: 20px;
+}
+
+.choose-box p {
+  color: var(--grey-900);
+}
+
+.why-choose-wrap .title-wrap {
+  padding-bottom: 15px;
+}
+
+.why-choose-wrap .choose-list {
+  display: flex;
+  flex-direction: column;
+  row-gap: clamp(30px, 3.438vw, 66px);
+}
+
+.why-choose-wrap .img-box {
+  margin: 0 -140px;
+}
+
+/*===== why-choose-wrap =====*/
+
+/*===== our-facilities-wrap =====*/
+.our-facilities-wrap {
+  padding: 0 clamp(10px, 3.125vw, 60px);
+}
+
+.our-facilities-wrap .inner {
+  border-radius: 16px;
+  overflow: hidden;
+  background: no-repeat center / cover;
+}
+
+.our-facilities-wrap .facilities {
+  margin-left: auto;
+  max-width: 41.722%;
+  padding: clamp(30px, 5vw, 96px) clamp(20px, 6.302vw, 121px);
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.51) 0%, rgba(0, 0, 0, 0.51) 100%);
+  backdrop-filter: blur(60.599998474121094px)
+}
+
+.facilities ul {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  padding-top: clamp(20px, 1.563vw, 30px);
+}
+
+.facilities ul li {
+  color: var(--white);
+  font-size: clamp(18px, 1.25vw, 24px);
+  line-height: 1.087;
+  padding-left: clamp(25px, 1.823vw, 35px);
+  position: relative;
+  background: url("../images/bullet-icon.svg") no-repeat left top 3px / clamp(16px, 1.146vw, 22px);
+}
+
+.facilities .btn-wrap {
+  padding-top: clamp(25px, 2.396vw, 46px);
+}
+
+/*===== our-facilities-wrap =====*/
+
+/*===== certifications =====*/
+.certifications-wrap .title-wrap {
+  max-width: 1125px;
+  margin: 0 auto;
+}
+
+.certifications-wrap .slider-wrap .img-cover {
+  padding-bottom: 101.185%;
+}
+
+.certifications-wrap .slider-wrap .img-cover img {
+  object-fit: contain;
+}
+
+.certifications-wrap .slider-wrap .swiper-slide {
+  position: relative;
+}
+
+.certifications-wrap .slider-wrap .swiper-slide::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: -2px;
+  bottom: 0;
+  width: 1px;
+  background: url("../images/line-shape.svg") no-repeat center;
+}
+
+.certifications-wrap .sw-pagination {
+  padding-top: clamp(40px, 4.583vw, 8px);
+}
+
+/*===== certifications =====*/

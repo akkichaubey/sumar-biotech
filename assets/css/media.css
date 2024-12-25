@@ -6,7 +6,21 @@
 /*===== 768 =====*/
 
 /*===== 992 =====*/
-@media(min-width:992px) {}
+@media(min-width:992px) {
+  .why-choose-wrap .choose-list {
+    max-width: 400px;
+  }
+
+  .why-choose-wrap .choose-list.left {
+    margin-right: auto;
+    text-align: left;
+  }
+
+  .why-choose-wrap .choose-list.right {
+    margin-left: auto;
+    text-align: right;
+  }
+}
 
 /*===== 992 =====*/
 /*===== 1025 =====*/
@@ -25,6 +39,10 @@
   .about-wrap .about-img {
     margin-right: -36px;
     margin-left: -36px;
+  }
+
+  .why-choose-wrap .img-box {
+    margin: 0 -70px;
   }
 }
 
@@ -52,6 +70,22 @@
     row-gap: 20px;
     align-items: initial;
   }
+
+  .choose-box {
+    text-align: center;
+  }
+
+  .why-choose-wrap .img-box {
+    margin: 0;
+  }
+
+  .why-choose-wrap .img-box img {
+    width: 100%;
+  }
+
+  .our-facilities-wrap .facilities {
+    max-width: 50%;
+  }
 }
 
 /*===== 991 =====*/
@@ -59,6 +93,10 @@
 @media(max-width:767px) {
   .btn {
     padding: 16px 26px;
+  }
+
+  .our-facilities-wrap .facilities {
+    max-width: 100%;
   }
 }
 
