@@ -350,8 +350,142 @@
     </div>
   </div>
   <!-- certifications -->
+  <!-- photo gallery -->
+  <div class="section home-gallery-wrap pt-115">
+    <div class="container">
+      <div class="title-wrap text-center pb-70">
+        <div class="sub-title">Photo Gallery</div>
+        <h2 class="h2">Certifications</h2>
+        <div class="sub-text">
+          <p>Explore the journey of SUMAR Biotech through images that showcase our state-of-the-art facilities,
+            cutting-edge research labs, and dynamic team in action.</p>
+        </div>
+      </div>
+    </div>
+    <div class="slider-wrap">
+      <div class="swiper gallery-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="img-cover">
+              <img src="./assets/images/gallery-1.jpg" alt="" width="" height="">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="img-cover">
+              <img src="./assets/images/gallery-2.jpg" alt="" width="" height="">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="img-cover">
+              <img src="./assets/images/gallery-3.jpg" alt="" width="" height="">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="img-cover">
+              <img src="./assets/images/gallery-1.jpg" alt="" width="" height="">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="img-cover">
+              <img src="./assets/images/gallery-2.jpg" alt="" width="" height="">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="img-cover">
+              <img src="./assets/images/gallery-3.jpg" alt="" width="" height="">
+            </div>
+          </div>
+        </div>
+        <button type="button" class="sw-arrow right swiper-gallery-prev">
+          <svg class="icon" width="10" height="20">
+            <use xlink:href="./assets/images/svgsprit.svg#arrow-prev"></use>
+          </svg>
+        </button>
+        <button type="button" class="sw-arrow next swiper-gallery-next">
+          <svg class="icon" width="10" height="20">
+            <use xlink:href="./assets/images/svgsprit.svg#arrow-next"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+  <!-- photo gallery -->
 
-
+  <!-- contact-wrap -->
+  <div class="contact-wrap dark pt-140 pb-140">
+    <div class="container">
+      <div class="title-wrap text-center pb-90">
+        <h2 class="h2">Are you looking to collaborate on cutting-edge pharmaceutical solutions?</h2>
+        <div class="sub-text">
+          <p>At SUMAR Biotech, we value communication and are here to assist you. Whether you have questions, need
+            support, or want to explore collaboration opportunities, our team is ready to help.</p>
+        </div>
+      </div>
+      <div class="row row-gap-30">
+        <div class="col-lg-6">
+          <div class="custom-form">
+            <form class="wpcf7-form">
+              <div class="form-row">
+                <div class="input-box floating-input">
+                  <span class="wpcf7-form-control-wrap">
+                    <input type="text" class="form-control" id="input-1">
+                  </span>
+                  <label for="input-1">Name*</label>
+                </div>
+                <div class="input-box floating-input">
+                  <span class="wpcf7-form-control-wrap">
+                    <input type="text" class="form-control" id="input-2">
+                  </span>
+                  <label for="input-2">Phone*</label>
+                </div>
+                <div class="input-box floating-input">
+                  <span class="wpcf7-form-control-wrap">
+                    <input type="text" class="form-control" id="input-3">
+                  </span>
+                  <label for="input-3">Email*</label>
+                </div>
+                <div class="input-box floating-input">
+                  <span class="wpcf7-form-control-wrap">
+                    <input type="text" class="form-control" id="input-4">
+                  </span>
+                  <label for="input-4">Organization*</label>
+                </div>
+                <div class="input-box floating-input">
+                  <span class="wpcf7-form-control-wrap">
+                    <textarea class="form-control" id="input-5"></textarea>
+                  </span>
+                  <label for="input-4">Write your message</label>
+                </div>
+                <div class="input-box btn-wrap">
+                  <button type="submit" class="btn">Send Message</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="contact-info">
+            <ul>
+              <li>
+                <h3>Address</h3>
+                <p>Plot No: 112,113,114,GIDC Estate Gozariya,
+                  Dist: Mehsana, 382825,Gujarat, India</p>
+              </li>
+              <li>
+                <h3>Phone</h3>
+                <p><a href="tel:+91-2763-264939">+91-2763-264939</a></p>
+              </li>
+              <li>
+                <h3>Email</h3>
+                <p><a href="mailto:info@sumarbiotech.com">info@sumarbiotech.com</a></p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- contact-wrap -->
   <!-- footer section start -->
   <?php include ("include/footer.php"); ?>
   <?php include ("include/script.php"); ?>

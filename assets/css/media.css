@@ -86,6 +86,19 @@
   .our-facilities-wrap .facilities {
     max-width: 50%;
   }
+
+  .contact-wrap .contact-info ul {
+    margin: -30px 0;
+  }
+
+  .contact-wrap .contact-info ul li {
+    padding: 30px 0;
+  }
+
+  footer .menu-row {
+    max-width: 100%;
+    margin: 0 -15px;
+  }
 }
 
 /*===== 991 =====*/
@@ -98,9 +111,21 @@
   .our-facilities-wrap .facilities {
     max-width: 100%;
   }
+
+  .contact-wrap .contact-info ul {
+    margin: -20px 0;
+  }
+
+  .contact-wrap .contact-info ul li {
+    padding: 20px 0;
+  }
 }
 
-@media(max-width:680px) {}
+@media(max-width:680px) {
+  footer .menu-row .footer-menu {
+    width: 100%;
+  }
+}
 
 @media(max-width:480px) {}
 

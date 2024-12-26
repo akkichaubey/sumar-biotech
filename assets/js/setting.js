@@ -80,6 +80,35 @@ jQuery(document).ready(function () {
       "xml"
     );
   });
+
+  jQuery(".wpcf7-form input,  .wpcf7-form textarea")
+    .focus(function () {
+      jQuery(this).parent().siblings("label").addClass("has-value");
+      jQuery(this).addClass("has-value");
+    })
+    .blur(function () {
+      var textValue = jQuery(this).val();
+      if (textValue == "") {
+        jQuery(this).parent().siblings("label").removeClass("has-value");
+        jQuery(this).removeClass("has-value");
+      }
+    });
+  jQuery(".wpcf7-form label, .input-box label").on("click", function () {
+    jQuery(this).parent(".floating-input").find("input, textarea").focus();
+  });
+  jQuery(".wpcf7-textarea").removeAttr("cols");
+  jQuery(".wpcf7-textarea").removeAttr("rows");
+  jQuery("textarea")
+    .each(function () {
+      this.setAttribute(
+        "style",
+        "height:" + this.scrollHeight + "px;overflow-y:hidden;"
+      );
+    })
+    .on("input", function () {
+      this.style.height = "auto";
+      this.style.height = this.scrollHeight + "px";
+    });
 });
 
 var certifications = new Swiper(".certifications-slider", {
@@ -97,6 +126,22 @@ var certifications = new Swiper(".certifications-slider", {
     },
     1024: {
       slidesPerView: 5,
+    },
+  },
+});
+var certifications = new Swiper(".gallery-slider", {
+  slidesPerView: 1,
+  spaceBetween: 2,
+  navigation: {
+    nextEl: ".swiper-gallery-next",
+    prevEl: ".swiper-gallery-prev",
+  },
+  breakpoints: {
+    640: {
+      slidesPerView: 2,
+    },
+    768: {
+      slidesPerView: 3,
     },
   },
 });
