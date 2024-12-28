@@ -69,7 +69,7 @@
     <!-- hero-banner -->
     <div class="banner inner-banner">
         <div class="banner-bg img-cover">
-            <img src="./assets/images/inner-bg.jpg" alt="banner" width="" height="">
+            <img src="./assets/images/inner-bg.webp" alt="banner" width="" height="">
         </div>
         <div class="container">
             <div class="banner-info">
@@ -88,12 +88,26 @@
                 <li>
                     <a href="index.php">Home</a>
                 </li>
-
                 <li>
                     <a href="about.php">about</a>
                 </li>
                 <li>
                     <a href="contact.php">Contact</a>
+                </li>
+                <li>
+                    <a href="photo-gallery.php">Photo Gallery</a>
+                </li>
+                <li>
+                    <a href="chemical-synthesis.php">Chemical Synthesis</a>
+                </li>
+                <li>
+                    <a href="business-development.php">Business Development </a>
+                </li>
+                <li>
+                    <a href="products.php">Products</a>
+                </li>
+                <li>
+                    <a href="product-single.php">product single</a>
                 </li>
             </ul>
         </div>

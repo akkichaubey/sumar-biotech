@@ -13,96 +13,31 @@
     <!-- hero-banner -->
     <div class="banner inner-banner">
         <div class="banner-bg img-cover">
-            <img src="./assets/images/inner-bg.webp" alt="banner" width="287" height="291">
+            <img src="./assets/images/contact-inner.webp" alt="banner" width="" height="">
         </div>
         <div class="container">
             <div class="banner-info">
-                <h1 class="h1 banner-title" data-aos="fade-up">About Us</h1>
+                <h1 class="h1 banner-title" data-aos="fade-up">Business Development</h1>
                 <ul class="breadcrumb" data-aos="fade-up">
                     <li><a href="index.php">Home</a></li>
-                    <li>About Us</li>
+                    <li>Business Development</li>
                 </ul>
             </div>
         </div>
     </div>
     <!-- hero-banner -->
-    <!-- about -->
-    <div class="section about-wrap pt-148 pb-148">
-        <div class="container">
-            <div class="title-wrap pb-100 text-center">
-                <div class="sub-title h4" data-aos="fade-up">Sumar Biotech</div>
-                <h2 class="h2" data-aos="fade-up">We are committed to quality</h2>
-            </div>
-            <div class="row row-gap-30 align-items-center">
-                <div class="col-lg-6 pe-lg-5">
-                    <div class="content-box pe-lg-4" data-aos="fade-up">
-                        <p><strong>SUMAR Biotech LLP, registered in January 2018, is a startup approved by Gujarat State
-                                Biotechnology Mission. SUMAR Biotech LLP was started by emerging entrepreneurs and a
-                                team of young but
-                                experienced research scientists and manufacturing professionals.</strong></p>
-                        <p>We work together to innovate and manufacture Semi-synthetic, synthetic and Fermentation API.
-                            Our R&D set
-                            up is equipped with state-of-the-art facility for synthesis, extraction, isolation and
-                            purification of
-                            products from upstream (fermentation) process.
-                        </p>
-                        <p>Our team is also involved in developing and implementation of new ideas in process chemistry
-                            for
-                            different therapeutic molecules to help our clients deal with the competitive market. We
-                            have well
-                            established analytical lab to support R & D Department, impurity isolation from complex
-                            compounds.</p>
-                        <p>With state-of-the-art facility at our plant, we are well focused on robust growth in the
-                            coming years.
-                        </p>
-                        <div class="btn-wrap pt-54">
-                            <a href="#" class="btn">Explore More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 ps-lg-0">
-                    <div class="about-img shape" data-aos="flip-left">
-                        <img src="./assets/images/about.webp" alt="about" width="839" height="746">
-                        <div class="icon-box">
-                            <img src="./assets/images/icon-1.svg" alt="icon" width="76" height="76">
-                        </div>
-                    </div>
-                </div>
+    <div class="section line-bottom pt-120 pb-70">
+        <div class="container" data-aos="fade-up">
+            <p>Among the fastest growing API suppliers in India Business partnership is an integral part of our business
+                strategy and we are keen to collaborate with us to support our mission of enriching lives of patients by
+                offering high-quality medication.</p>
+            <p>Our aims is to target overseas market in the future with all required certifications like WHO, MHA, USFDA
+                etc.</p>
+            <div class="btn-wrap pt-30">
+                <a href="#" class="btn">Explore Products</a>
             </div>
         </div>
     </div>
-    <!-- about -->
-
-    <!-- vision -->
-    <div class="section vision-wrap px-60">
-        <div class="inner" style="background-image: url('./assets/images/vision.webp');">
-            <div class="vision-box" data-aos="fade-up">
-                <h2 class="h2">Vision</h2>
-                <p>To offer economical, secure and effective solutions through Chemical and biotechnology route to fight
-                    against
-                    feared ailments and to thus prepare out or minimize their occurrences in the coming years.</p>
-            </div>
-        </div>
-    </div>
-    <!-- vision -->
-    <!-- mission -->
-    <div class="section mission-wrap pb-30">
-        <div class="container">
-            <div class="mission-box" data-aos="fade-up">
-                <div class="icon-box">
-                    <img src="./assets/images/mission-icon.webp" alt="" width="202" height="210">
-                </div>
-                <h2 class="h2">Mission</h2>
-                <p><a href="#">SUMAR Biotech LLP</a> is an emerging company. We pursue to address the health care needs
-                    in the
-                    domestic markets
-                    by driving innovation and being a contender in research and development. We will be driven by high
-                    ethical
-                    standards in all our practices.</p>
-            </div>
-        </div>
-    </div>
-    <!-- mission -->
     <!-- certifications -->
     <div class="section certifications-wrap pt-130 pb-80">
         <div class="container">

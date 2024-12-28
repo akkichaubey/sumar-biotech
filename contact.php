@@ -13,12 +13,12 @@
     <!-- hero-banner -->
     <div class="banner inner-banner">
         <div class="banner-bg img-cover">
-            <img src="./assets/images/contact-inner.jpg" alt="banner" width="" height="">
+            <img src="./assets/images/contact-inner.webp" alt="banner" width="" height="">
         </div>
         <div class="container">
             <div class="banner-info">
-                <h1 class="h1 banner-title">Contact</h1>
-                <ul class="breadcrumb">
+                <h1 class="h1 banner-title" data-aos="fade-up">Contact</h1>
+                <ul class="breadcrumb" data-aos="fade-up">
                     <li><a href="index.php">Home</a></li>
                     <li>Contact</li>
                 </ul>
@@ -29,8 +29,9 @@
     <div class="contact-wrap pt-140 pb-140">
         <div class="container">
             <div class="title-wrap text-center pb-90">
-                <h2 class="h2">Are you looking to collaborate on cutting-edge pharmaceutical solutions?</h2>
-                <div class="sub-text">
+                <h2 class="h2" data-aos="fade-up">Are you looking to collaborate on cutting-edge pharmaceutical
+                    solutions?</h2>
+                <div class="sub-text" data-aos="fade-up">
                     <p>At SUMAR Biotech, we value communication and are here to assist you. Whether you have questions,
                         need
                         support, or want to explore collaboration opportunities, our team is ready to help.</p>
@@ -38,38 +39,38 @@
             </div>
             <div class="row row-gap-30">
                 <div class="col-lg-6">
-                    <div class="custom-form">
+                    <div class="custom-form" data-aos="fade-up">
                         <form class="wpcf7-form">
                             <div class="form-row">
                                 <div class="input-box floating-input">
                                     <span class="wpcf7-form-control-wrap">
-                                        <input type="text" class="form-control" id="input-1">
+                                        <input type="text" class="form-control" id="name">
                                     </span>
-                                    <label for="input-1">Name*</label>
+                                    <label for="name">Name*</label>
                                 </div>
                                 <div class="input-box floating-input">
                                     <span class="wpcf7-form-control-wrap">
-                                        <input type="text" class="form-control" id="input-2">
+                                        <input type="text" class="form-control" id="phone">
                                     </span>
-                                    <label for="input-2">Phone*</label>
+                                    <label for="phone">Phone*</label>
                                 </div>
                                 <div class="input-box floating-input">
                                     <span class="wpcf7-form-control-wrap">
-                                        <input type="text" class="form-control" id="input-3">
+                                        <input type="text" class="form-control" id="email">
                                     </span>
-                                    <label for="input-3">Email*</label>
+                                    <label for="email">Email*</label>
                                 </div>
                                 <div class="input-box floating-input">
                                     <span class="wpcf7-form-control-wrap">
-                                        <input type="text" class="form-control" id="input-4">
+                                        <input type="text" class="form-control" id="organization">
                                     </span>
-                                    <label for="input-4">Organization*</label>
+                                    <label for="organization">Organization*</label>
                                 </div>
                                 <div class="input-box floating-input">
                                     <span class="wpcf7-form-control-wrap">
-                                        <textarea class="form-control" id="input-5"></textarea>
+                                        <textarea class="form-control" id="message"></textarea>
                                     </span>
-                                    <label for="input-4">Write your message</label>
+                                    <label for="message">Write your message</label>
                                 </div>
                                 <div class="input-box btn-wrap">
                                     <button type="submit" class="btn">Send Message</button>
@@ -79,7 +80,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <div class="contact-info">
+                    <div class="contact-info" data-aos="fade-up">
                         <ul>
                             <li>
                                 <h3>Address</h3>
@@ -102,8 +103,8 @@
     </div>
 
     <div class="map">
-        <div class="img-cover">
-            <img src="./assets/images/map.png" alt="" width="" height="">
+        <div class="img-cover" data-aos="fade-up">
+            <img src="./assets/images/map.webp" alt="" width="1913" height="570">
         </div>
     </div>
 

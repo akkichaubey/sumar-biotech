@@ -1,3 +1,7 @@
+AOS.init({
+  duration: 900,
+  once: true,
+});
 jQuery(document).ready(function () {
   var headerwrap = jQuery(".header-wrap");
   jQuery(window).on("load scroll", function () {
